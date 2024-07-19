@@ -1,0 +1,7 @@
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\bin\Debug\GuessingGame.exe.config
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\bin\Debug\GuessingGame.exe
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\bin\Debug\GuessingGame.pdb
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\obj\Debug\GuessingGame.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\obj\Debug\GuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\obj\Debug\GuessingGame.exe
+C:\Users\PC\OneDrive - Dokuz Eylül Üniversitesi\Masaüstü\C#\GuessingGame\obj\Debug\GuessingGame.pdb
