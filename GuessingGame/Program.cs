@@ -18,7 +18,7 @@ namespace GuessingGame
 
 
 
-            Console.WriteLine("We are playing a game. The game is when i give you a letter you will find a word that start with that letter");
+            Console.WriteLine("This is a a basic word guessing game based on a random generated letter.");
             Console.WriteLine("Are you ready?(Yes/No)");
             
             
@@ -52,10 +52,13 @@ namespace GuessingGame
 
 
 
-                    Console.WriteLine("Do you want to play for another round(Yes/No)");
+                    Console.WriteLine("Do you want to play another round?(Yes/No)");
                     rdy = Console.ReadLine();
                 } while (rdy == "Yes");
             }
+            
+             Console.WriteLine("Bye Bye !");
+            
             
 
 
