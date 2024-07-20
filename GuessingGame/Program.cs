@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace GuessingGame
 {
@@ -11,14 +12,16 @@ namespace GuessingGame
     {
         static void Main(string[] args)
         {
+            
             string rdy;
             string theWord;
             char letter;
+
             
 
 
 
-            Console.WriteLine("This is a a basic word guessing game based on a random generated letter.");
+            Console.WriteLine("This is a a basic word guessing game based on a random generated letter.You Have to find a word in 5 seconds");
             Console.WriteLine("Are you ready?(Yes/No)");
             
             
@@ -27,11 +30,26 @@ namespace GuessingGame
 
             if(rdy == "Yes")
             {
+                
                 do
                 {
-                    letter = RandomLetter();
-                    Console.WriteLine("Here is your letter>" + letter);
                     
+                    
+                    
+
+                    
+
+                    letter = RandomLetter();
+                    Console.WriteLine("You have 5 seconds!!!");
+                    Console.WriteLine("Here is your letter.>" + letter);
+                    CountDown();
+                    
+                    
+
+
+
+
+
                     theWord = Console.ReadLine();
                     
                     Console.WriteLine("Your word is:" + theWord);
@@ -47,7 +65,7 @@ namespace GuessingGame
                         Console.WriteLine("Wrong Answer!");
                     }
 
-
+                    
 
 
 
@@ -85,5 +103,21 @@ namespace GuessingGame
             
 
         }
+        static void CountDown()
+        {
+            int count = 5;
+            int i;
+            for (i = count; i > 0; i--)
+            {
+                Console.WriteLine(i);
+                System.Threading.Thread.Sleep(1000);
+
+
+
+            }
+
+        }
+
+
     }
 }
